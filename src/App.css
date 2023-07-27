@@ -1,0 +1,17 @@
+.temp{
+    color: black; 
+    margin-bottom: 50px; 
+    text-align: center;  
+    font-weight: bold;
+    margin-top: 50px;
+} 
+.temp1{
+    color: black;  
+    font-weight: bold;
+    margin-bottom: 50px; 
+    text-align: center;
+} 
+.temp2{
+    height: 50px; 
+    margin-left: 40px;
+}

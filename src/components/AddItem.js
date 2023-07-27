@@ -45,7 +45,7 @@ class AddItem extends Component {
               value={this.state.productPrice}
             />
           </div>
-          <button type="submit" className="btn btn-primary col-3 height:5px" 
+          <button type="submit" className=" temp2 btn btn-primary col-1 " 
            >
             Add
           </button>

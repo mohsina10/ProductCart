@@ -1,5 +1,5 @@
 import React,{useState} from "react";
-import './App.css';
+import styles from './App.css';
 import Navbar from './components/Navbar'; 
 import ProductList from './components/ProductList'; 
 import Footer from "./components/Footer";
@@ -88,10 +88,12 @@ function App() {
   return ( 
     <> 
     <Navbar totalSize={totalSize}/>  
-    <AddItem addItem={addItem} />
+    <h1 className='temp1'> List of available Products with price</h1>
     <div className='Container mt-5'>
     <ProductList productList={productList} incrementQ={incrementQ} decrementQ={decrementQ} resetData={resetData} removeItem={removeItem}
-    />  
+    />   
+    <h1 className='temp'> Add New Item</h1> 
+    <AddItem addItem={addItem} />
     <Footer totalAmount={totalAmount}  resetData={resetData} />
     </div>
      </>
